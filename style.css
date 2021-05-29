@@ -1,5 +1,17 @@
-.input{
-    border-style: solid;
-    border-radius: 0vh;
-    border-color: brown;
+.flex-container {
+    display: flex;
+    background-color: cornflowerblue;
+    flex-direction: row;
+}
+
+.flex-container >div {
+    background-color: cornsilk;
+    width: 150px;
+    margin: 10px;
+    line-height: 18px;
+    text-align: center;
+    border: 1px solid lightblue;
+    text-decoration: none;
+    color: lightcoral;
+    
 }
